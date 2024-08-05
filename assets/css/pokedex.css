@@ -6,14 +6,14 @@
     margin: 0;
 }
 
-.pokemon{
+.pokemon{    
+    display: flex;    
+    flex-direction: column;
     margin: .5rem;
     padding: 1rem 1rem;
     background-color: #48D0B0;
     color: white;
     border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
 }
 
 .pokemon .number{
@@ -36,9 +36,9 @@
 }
 
 .pokemon .detail .types{
-    list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0;    
+    list-style: none;
 }
 
 .pokemon .detail .types .type{
