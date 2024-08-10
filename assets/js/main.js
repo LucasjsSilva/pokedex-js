@@ -85,7 +85,7 @@ function mostrarPaginaTemporaria(id) {
                         </li> 
                         <li>
                             <span>
-                                defense
+                                Defense
                             </span>
                             <span class="title">
                                 ${pokemon.stats[2]} 
@@ -93,14 +93,14 @@ function mostrarPaginaTemporaria(id) {
                         </li>
                         <li>
                             <span>
-                                special-attack
+                                Special Attack
                             </span>
                             <span class="title">
                                 ${pokemon.stats[3]} 
                             </span>
                         </li> <li>
                             <span>
-                                special-defense
+                                Special Defense
                             </span>
                             <span class="title">
                                 ${pokemon.stats[4]} 
