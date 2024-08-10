@@ -28,8 +28,7 @@
 
 .foto-individual {  
     margin: 1rem;
-    align-items: center;
-    background-color: #77c850;    
+    align-items: center; 
     border-radius: 1rem;
 }
 
@@ -90,7 +89,6 @@
 .atributes li .title{
     color: white;
 }
-
 
 .div-types{
     border-radius: 1rem;      

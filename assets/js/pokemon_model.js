@@ -1,12 +1,17 @@
 
 class Pokemon {
+    id;
+    idPrevious;
+    idNext;
     number;
     name;
     type;
     types = [];
     photo;
-}
-
-class PokemonIndividual{
-
+    weight;
+    height;
+    stats = [];
+    ability;   
+    previous;
+    next; 
 }
