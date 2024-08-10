@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Temporária</title>
+    <style>
+        #pagina-temporaria {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            z-index: 1000;
+            text-align: center;
+            padding-top: 20%;
+            font-size: 24px;
+        }
+    </style>
+
+    <a onclick="mostrarPaginaTemporaria()" href="index.html"> clica aqui</a>
+</head>
+<body>
+
+    <div id="conteudo-principal">
+        <h1>Bem-vindo ao meu site</h1>
+        <p>Este é o conteúdo principal da página.</p>
+        <button onclick="mostrarPaginaTemporaria()">Clique para ver a página temporária</button>
+    </div>
+
+    <div id="pagina-temporaria">
+        <h1>Página Temporária</h1>
+        <p>Este é o conteúdo temporário.</p>
+        <button onclick="fecharPaginaTemporaria()">Fechar</button>
+    </div>
+
+    <script>
+        function mostrarPaginaTemporaria() {
+            document.getElementById('conteudo-principal').style.display = 'none';
+            document.getElementById('pagina-temporaria').style.display = 'block';
+        }
+
+        function fecharPaginaTemporaria() {
+            document.getElementById('pagina-temporaria').style.display = 'none';
+            document.getElementById('conteudo-principal').style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
